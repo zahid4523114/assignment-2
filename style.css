@@ -92,3 +92,48 @@
 .match-text-box {
   padding: 10px;
 }
+.match-btn {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: 800;
+}
+.match-icon {
+  padding: 5px;
+}
+/* footer */
+footer {
+  width: 100%;
+  height: 50%;
+  background-color: black;
+}
+.foot-heading {
+  width: 80%;
+  border-bottom: 1px solid gray;
+}
+.foot-heading,
+.foot-links,
+.foot-icons {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding: 3%;
+}
+.foot-links ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 40px;
+}
+.foot-links ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+.fa-brands {
+  margin-right: 10px;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+.fa-brands:hover {
+  color: #fb5200;
+}
