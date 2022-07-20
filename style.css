@@ -16,6 +16,7 @@
   padding: 2%;
   border: none;
   border-radius: 20px;
+  overflow: hidden;
 }
 .header-contents {
   display: flex;
@@ -197,7 +198,7 @@ footer {
 }
 /* web-site-1 */
 /* Mobile-version */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 668px) {
   /* header */
   .header-contents {
     width: 100%;
@@ -205,13 +206,19 @@ footer {
     margin: 0 auto;
   }
   .head-text-box {
+    padding: 2%;
     color: white;
     width: 100%;
     text-align: center;
   }
   .head-image {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
+  }
+  .head-image img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: -27px;
   }
   /* middle-part */
   .mid-container {
@@ -225,7 +232,7 @@ footer {
     justify-content: center;
     flex-direction: column;
     background-color: transparent;
-    width: 20%;
+    width: 100%;
     height: 300px;
     margin: 0 70px;
   }
@@ -265,11 +272,92 @@ footer {
   }
 }
 /* web-site-2 */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 668px) {
   .matches-chart {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    gap: 30px 30px;
+  }
+}
+
+/* Tab-view------website-1 */
+@media screen and (min-width: 669px) and (max-width: 992px) {
+  .header-contents {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .head-image {
+    width: 40%;
+    margin-left: 15%;
+  }
+  .head-image img {
+    width: 100%;
+    height: 100%;
+    margin-top: 27px;
+  }
+  .head-text-box {
+    color: white;
+    width: 60%;
+  }
+  .head-text-box h1 {
+    font-size: 30px;
+  }
+  .head-text-box P {
+    font-size: 15px;
+  }
+  .mid-container {
+    width: 80%;
+    margin: 4% auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .match-events {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: transparent;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+  }
+  .event-btn {
+    width: 200px;
+    height: 45px;
+    padding: 8px;
+    margin-right: 10px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgb(234, 234, 234);
+    background-color: transparent;
+  }
+  #active {
+    background-color: rgb(255, 4, 4);
+    color: white;
+  }
+  .matches-info {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 30px;
+  }
+
+  #m-hidden {
+    display: none;
+  }
+}
+
+/* website-2 Tab-version */
+@media screen and (min-width: 669px) and (max-width: 992px) {
+  .matches-chart {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px 30px;
   }
 }
