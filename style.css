@@ -233,11 +233,12 @@ footer {
   .match-events {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     background-color: transparent;
     width: 100%;
     height: 300px;
-    margin: 0 140px;
+    margin: 0 auto;
   }
   .event-btn {
     width: 200px;
