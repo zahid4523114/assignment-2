@@ -47,7 +47,7 @@
   padding: 10px 30px;
 }
 .fa-greater-than {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 /* matches */
@@ -119,6 +119,17 @@
 }
 .match-icon {
   margin: 5px;
+}
+.view-btn {
+  display: none;
+}
+.view-all-btn {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 700;
 }
 /* footer */
 footer {
@@ -297,7 +308,7 @@ footer {
   .head-image img {
     width: 100%;
     height: 100%;
-    margin-top: 27px;
+    margin-bottom: -27px;
   }
   .head-text-box {
     color: white;
@@ -351,6 +362,13 @@ footer {
 
   #m-hidden {
     display: none;
+  }
+  .view-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
   }
 }
 
